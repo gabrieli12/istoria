@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,166,38,0.8379726890756303) 47%, rgba(0,211,255,0.865983893557423) 100%);
+}
+/* სათაური */
+header{
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px;
+    border: 2px dashed whitesmoke;
+    color: whitesmoke;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.9051995798319328) 0%, rgba(110,10,10,0.8995973389355743) 35%, rgba(0,0,0,0.896796218487395) 46%, rgba(83,6,6,0.9023984593837535) 74%, rgba(0,0,0,0.8995973389355743) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.9051995798319328) 0%, rgba(110,10,10,0.8995973389355743) 35%, rgba(0,0,0,0.896796218487395) 46%, rgba(83,6,6,0.9023984593837535) 74%, rgba(0,0,0,0.8995973389355743) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9051995798319328) 0%, rgba(110,10,10,0.8995973389355743) 35%, rgba(0,0,0,0.896796218487395) 46%, rgba(83,6,6,0.9023984593837535) 74%, rgba(0,0,0,0.8995973389355743) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    z-index: 999;
+}
+
+
+
+/* დროის ხაზი */
+section{
+    position: relative;
+    top: 33rem;
+    padding: 30px;
+   
+}
+/* ხაზი */
+hr{
+    margin: 20px;
+}
+
+/*ხაზები და მათი განლაგება*/
+#line{
+    position: relative;
+    background-color: black;
+    height: 30px;
+    transform: translateY(-35px);
+}
+.display-1{
+    display: flex;
+    width: 3px;
+
+}
+.line-1{
+    left: 150px;
+    width: 3px;
+
+}
+.line-2{
+    left: 382px;
+    width: 3px;
+
+}
+.line-3{
+    left: 650px;
+    width: 10px;
+
+}
+.line-4{
+    left: 910px;
+    width: 10px;
+
+}
+.line-5{
+    width: 10px;
+    left: 1170px;
+}
+/* ყველა სურათი */
+img{
+    border-radius: 30px;
+    border: 2px dashed  whitesmoke;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* ისტორია */
+p{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/*ყველა მეფე*/
+#block{
+    border: 1px dashed black ;
+    width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*განლაგება*/
+.display{
+    display: flex;
+}
+
+/* მეფეები */
+
+/* დავით 6 */  
+.davit-6{
+    position: sticky;
+    top: 20;
+    bottom: 20px;
+    height: 530px;
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);    color: whitesmoke;
+    transition: 0.5s;
+
+}
+.rusudani{
+    position: relative;
+
+    bottom: 20px;
+    height: 530px;
+    transform: translate(-90px, -600px); 
+    background-color: #333;
+    transition: 0.5s;
+    color: whitesmoke;
+}.davit-VII{
+    bottom: 20px;
+    height: 530px;
+    transform: translateX(-140px);
+    background-color: #333;
+    color: whitesmoke;
+    
+}
+.demetre-II{
+    bottom: 20px;
+    height: 530px;
+    transform: translate(-200px, -620px);
+    background-color: #333;
+    transition: 0.5s;
+    color: whitesmoke;
+}
+.giorgi-V{
+    bottom: 20px;
+    transform: translateX(-260px);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);    color: whitesmoke;
+    transition: 0.5s;
+}
+h2{
+    text-align: center;
+}
+.text{
+    color: white;
+    padding: 20px;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,10,10,1) 35%, rgba(0,0,0,1) 46%, rgba(83,6,6,1) 74%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);    font-size: 17px;
+    border: 3px dashed whitesmoke;
+
+}
+
+.rukebi{
+    display: flex;
+    height: 400px;
+}
+.ruka-1{
+    width: 50%;
+}
+
+.create{
+    height: 10rem;
+    width: 80rem;
+    box-shadow: 5px 5px 80px rgb(0, 68, 255);
+
+}
+.creator{
+    text-shadow: 0px 0px 0px white;
+
+    text-align: center;
+    transition: 0.5s;
+}
+.creator:hover{
+    text-shadow: 0px 0px 0px rgb(33, 33, 216);
+    box-shadow: 5px 5px 50px white;
+
+    cursor: pointer;
+    font-size: 30px;
+}
